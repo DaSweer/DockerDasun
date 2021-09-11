@@ -1,7 +1,7 @@
 pipeline {
 	agent any
     stages { 	
-        stage('pull latest codes') {
+        stage('pull latest code') {
             steps {
                 git 'https://github.com/DaSweer/DockerDasun.git'
             }

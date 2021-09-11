@@ -3,7 +3,7 @@ pipeline {
     stages { 	
         stage('pull latest code') {
             steps {
-                git 'https://github.com/DaSweer/Dockerd.git'
+                git 'https://github.com/DaSweer/DockerDasun.git'
             }
         }
         stage('spining up docker images'){

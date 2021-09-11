@@ -1,6 +1,6 @@
 FROM openjdk:8-jre-slim
 
-#A Directory in the base image to copy our depedencies
+#A Directory in the base image to copy our depedenci
 WORKDIR /usr/share/tag
 
 # Add the project jar & copy dependencies
